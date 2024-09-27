@@ -12,7 +12,6 @@ class Snake(Turtle):
         super().__init__()
         self.segments = []
         self.create_snake()
-        # self.score = 0
         self.head = self.segments[0]
 
     def create_snake(self):
