@@ -14,5 +14,5 @@ class Food(Turtle):
     def shift_food_location(self):
         x_pos = random.randrange(-260, 260, 20)
         y_pos = random.randrange(-260, 260, 20)
-        self.speed('fastest')
+        self.speed('fast')
         self.goto(x_pos, y_pos)
